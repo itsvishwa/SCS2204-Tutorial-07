@@ -15,7 +15,7 @@ def filterPrime(numbers: List[Int]): List[Int] = {
 }
 
 object Question03 extends App{
-    val inputList = List(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
+    val inputList = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     val primeNumbers = filterPrime(inputList)
     println(primeNumbers)
 }
