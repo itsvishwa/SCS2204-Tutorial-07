@@ -1,0 +1,225 @@
+2023.08.07 22:10:19 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07' for client Visual Studio Code 1.80.2.
+Aug 07, 2023 10:10:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 07, 2023 10:10:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 07, 2023 10:10:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.metals\metals (H2 2.1)
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.058s)
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 07, 2023 10:10:20 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.060s)
+2023.08.07 22:10:20 INFO  time: initialize in 1.03s
+2023.08.07 22:10:26 INFO  Running List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07)
+2023.08.07 22:10:26 INFO  Attempting to connect to the build server...
+2023.08.07 22:10:26 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07)
+2023.08.07 22:10:26 WARN  No build session currently active to reload.
+2023.08.07 22:10:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:10:27 INFO  BSP server: Starting compilation server
+2023.08.07 22:10:30 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.07 22:10:32 INFO  time: code lens generation in 10s
+2023.08.07 22:10:36 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 22:10:36 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.07 22:10:36 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 22:10:36 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.07 22:10:36 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:10:36 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:10:36 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:10:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.07 22:10:38 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:10:38 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:10:38 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:10:38 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.07 22:10:39 INFO  time: Connected to build server in 12s
+2023.08.07 22:10:39 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.07 22:10:39 INFO  time: Imported build in 0.3s
+2023.08.07 22:10:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:10:42 INFO  time: indexed workspace in 2.46s
+2023.08.07 22:10:43 INFO  time: compiled project_bd2c96d2de in 3.56s
+2023.08.07 22:11:17 WARN  no build target for: C:\Users\Vishwa\AppData\Local\Microsoft\Windows\INetCache\IE\Z6PG5P4I\Q1[1].scala
+2023.08.07 22:13:01 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:13:03 INFO  time: compiled project_bd2c96d2de in 2.52s
+2023.08.07 22:14:19 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question02.scala
+2023.08.07 22:14:20 INFO  Disconnecting from scala-cli session...
+2023.08.07 22:14:20 INFO  Shut down connection with build server.
+2023.08.07 22:14:20 INFO  Attempting to connect to the build server...
+2023.08.07 22:14:20 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07)
+2023.08.07 22:14:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:14:23 INFO  time: Connected to build server in 3.42s
+2023.08.07 22:14:23 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.07 22:14:24 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:14:24 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.08.07 22:14:25 INFO  time: indexed workspace in 1.8s
+2023.08.07 22:14:25 WARN  no build target for: C:\Users\Vishwa\AppData\Local\Microsoft\Windows\INetCache\IE\Z6PG5P4I\Q1[1].scala
+2023.08.07 22:14:38 INFO  Refreshed build after change
+2023.08.07 22:14:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:14:40 INFO  time: compiled project_bd2c96d2de in 0.43s
+2023.08.07 22:14:56 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:14:56 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.07 22:15:16 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.07 22:15:16 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.07 22:15:21 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.07 22:15:21 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.08.07 22:15:25 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.07 22:15:25 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.07 22:15:32 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.07 22:15:32 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.08.07 22:16:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.07 22:16:55 INFO  time: compiled project_bd2c96d2de in 1.77s
+2023.08.07 22:17:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:17:00 INFO  time: compiled project_bd2c96d2de in 0.48s
+2023.08.07 22:17:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:17:15 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.07 22:17:43 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\Question03.scala
+2023.08.07 22:17:44 INFO  Disconnecting from scala-cli session...
+2023.08.07 22:17:43 INFO  Shut down connection with build server.
+2023.08.07 22:17:43 INFO  Attempting to connect to the build server...
+2023.08.07 22:17:43 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07)
+2023.08.07 22:17:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 07\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.07 22:17:47 INFO  time: Connected to build server in 3.25s
+2023.08.07 22:17:47 INFO  Connected to Build server: scala-cli v1.0.0
+2023.08.07 22:17:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:17:47 INFO  time: compiled project_bd2c96d2de in 79ms
+2023.08.07 22:17:48 INFO  time: indexed workspace in 1.16s
+2023.08.07 22:17:48 WARN  no build target for: C:\Users\Vishwa\AppData\Local\Microsoft\Windows\INetCache\IE\Z6PG5P4I\Q1[1].scala
+2023.08.07 22:18:45 INFO  Refreshed build after change
+2023.08.07 22:21:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:21:58 INFO  time: compiled project_bd2c96d2de in 0.52s
+2023.08.07 22:28:49 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:28:49 INFO  time: compiled project_bd2c96d2de in 0.19s
+2023.08.07 22:29:01 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.07 22:29:01 INFO  time: compiled project_bd2c96d2de in 0.67s
+2023.08.07 22:30:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:30:48 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.08.07 22:32:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:32:49 INFO  time: compiled project_bd2c96d2de in 1.21s
+2023.08.07 22:32:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:32:58 INFO  time: compiled project_bd2c96d2de in 0.71s
+2023.08.07 22:33:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:33:03 INFO  time: compiled project_bd2c96d2de in 0.55s
+2023.08.07 22:33:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:33:07 INFO  time: compiled project_bd2c96d2de in 0.55s
+2023.08.07 22:33:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:33:40 INFO  time: compiled project_bd2c96d2de in 0.4s
+Aug 07, 2023 10:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 22,
+      "uri": "file:///c%3A/Users/Vishwa/Documents/MYWORK/scala/Patrical%2007/Question03.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val inputList \u003d List(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)\r\nval primeNumbers \u003d filterPrime(inputList)\r\nprintln(primeNumbers) // Output: List(2, 3, 5, 7, 11, 13)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..162]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:48)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:42)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:39)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:49)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$1(TokenEditDistance.scala:246)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:165)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:266)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3(Diagnostics.scala:232)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3$adapted(Diagnostics.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:231)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:1114)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:326)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:50)
+	... 15 more
+
+Aug 07, 2023 10:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..162]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..162]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..162]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:48)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:42)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:39)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:49)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$1(TokenEditDistance.scala:246)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:165)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:41)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:61)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:56)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:34)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:27)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$2(MetalsLspService.scala:1552)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.08.07 22:36:42 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:36:42 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.08.07 22:40:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:40:02 INFO  time: compiled project_bd2c96d2de in 0.41s
+Aug 07, 2023 10:41:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 854
+2023.08.07 22:42:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:42:04 INFO  time: compiled project_bd2c96d2de in 0.37s
+2023.08.07 22:42:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.07 22:42:22 INFO  time: compiled project_bd2c96d2de in 0.31s
