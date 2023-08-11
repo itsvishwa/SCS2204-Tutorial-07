@@ -5,13 +5,14 @@ def gcd(a: Int, b: Int): Int = b match{
 }
 
 def isPrime(p: Int, n: Int): Boolean = n match{
+    case x if (p == 1) => false; 
     case x if (x == p) => true;
     case x if gcd(p, x) > 1 => false;
     case x => isPrime(p, x+1)
 }
 
 def filterPrime(numbers: List[Int]): List[Int] = {
-  numbers.filter(isPrime(_, 1))
+  numbers.filter(isPrime(_, 2))
 }
 
 object Question03 extends App{
